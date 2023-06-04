@@ -11,11 +11,11 @@ void ls_Inode(struct stat buf)
 }
 void ls_Mode(struct stat buf)
 {
-        printf("%o      ", (unsigned long)buf.st_mode);
+        printf("%lo      ", (unsigned long)buf.st_mode);
 }
 void ls_FSize(struct stat buf)
 {
-        printf("%d      ", buf.st_size);
+        printf("%lld      ", buf.st_size);
 }
 void ls_option(struct stat buf, char * option)
 {
