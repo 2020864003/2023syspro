@@ -6,7 +6,7 @@
 #define BUFFER_SIZE 1024
 
 int main() {
-    int fd = open("file.txt", O_RDONLY); // 읽을 파일 열기
+    int fd = open("hello.txt", O_RDONLY); // 읽을 파일 열기
     if (fd == -1) {
         perror("파일 열기 실패");
         return 1;
