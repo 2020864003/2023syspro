@@ -6,8 +6,11 @@ Clock()
 <img width="766" alt="스크린샷 2023-06-10 오후 4 06 51" src="https://github.com/2020864003/2023syspro/assets/128778304/eb44bb18-45d3-474c-bdd9-ffb5ff33f2a9">
 
 
-System()
-- ls -l은 현재 디렉토리의 파일 목록을 자세히 보여주는 명령어입니다. system() 함수의 반환값은 명령어 실행의 성공 여부를 나타내며, 성공적으로 실행되면 0을 반환합니다. 명령어 실행이 실패하면 -1을 반환합니다.
-- ls -alㄱㅁ
-
-read()
+Cat명령어
+Chmod 명령어
+Descriptor명령어
+ls, ls -al, ls -l명령어
+mkdir명령어
+mv 명령어
+pwd 명령어
+rm 명령어
